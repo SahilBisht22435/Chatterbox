@@ -12,7 +12,9 @@ import Lottie from "react-lottie";
 import io from "socket.io-client";
 import animationData from "../animations/typing.json"; // for typing animation while user typing
 
-const ENDPOINT = "http://localhost:5000"; // Backend server endpoint
+// const ENDPOINT = "http://localhost:5000"; 
+const ENDPOINT = "https://chatify-backend-p269.onrender.com";
+// Backend server endpoint
 let socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
